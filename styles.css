@@ -1,0 +1,337 @@
+.Merriweather{
+      font-family: Merriweather; 
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.primary-btn{
+font-size: 20px;
+font-weight: 700;
+padding: 16px 32px;
+border-radius: 8px;
+background-color: #ff0000;
+color: white;
+border: none;
+}
+
+body{
+    /* margin: 50px 144px; */
+}
+
+
+header{
+        background-image: url('../images/Banner Image.png');
+        /* margin: 50px 144px; */
+        width: 1320px;
+        height: 600px;
+}
+
+.banner-content{
+text-align: center;
+margin: 177px 344px;
+
+
+}
+
+.banner-content p{
+   
+    margin: 177px 344px;
+    font-size: 32px;
+    color: white; 
+    
+}
+
+.banner-content h2{
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+}
+
+
+/* 65% off styles */
+
+.offer{
+text-align: center;
+
+}
+
+.off{
+    font-size: 88px;
+    color: red;
+    font-weight: 700;
+    margin: 24px 300px;
+}
+
+.all{
+    text-align: center;
+    margin: 24px 399px;
+}
+
+.all img{
+   
+}
+
+.all p{
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.all h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+
+
+/* midnight party styles */
+
+.midnight-party{
+    background-image: url('../images/Vectorrr.png');
+    display: flex;
+    color: #ffffff;
+    justify-content: space-around;
+    border-radius: 10px;
+    
+}
+
+.midnight{
+    text-align: left;
+    /* margin: 126px 552px 298px 126px; */
+}
+
+.midnight h6{
+font-size: 48px;
+
+}
+
+.midnight p{
+    opacity: 0.6;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.join-btn{
+    background:none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+/* Details styles */
+.details{
+    text-align: center;
+    margin: 24px 140px;
+    /* padding: 100px 385px 110px 385px; */
+    
+}
+
+.details-content{
+font-size: 32px;
+font-weight: 600;
+
+}
+
+.details-content span{
+    color: red;
+}
+
+
+
+/* Coming Soon 2024 styles */
+.coming-soon{
+    display: flex;
+    gap: 50px;
+    justify-content:space-between;
+}
+
+.best-offer{
+    text-align: left;
+}
+
+.best-offer h6{
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.best-offer h3{
+    font-size: 48px;
+}
+
+.best-offer p{
+         color: #070211;
+    opacity: 0.6;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+.circle{
+}
+
+.twenty-four{
+    text-align: left;
+}
+
+.twenty-four h3{
+    color: #ff0000;
+
+}
+
+.twenty-four p{
+        color: #070211;
+    opacity: 0.6;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+
+/* Holidays styles */
+
+.holidays{
+    margin: 32px 126px;
+    text-align: center;
+}
+
+.holidays h6{
+font-size: 24px;
+font-weight: 400;
+color: #070211;
+}
+
+.holidays h2{
+ font-size: 72px;
+}
+
+.holidays h2 span{
+    color: #ff0000;
+   
+}
+
+.holidays p{
+         color: #070211;
+    opacity: 0.6;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+
+/* 50% Discount style */
+
+.discount-image{
+    display: flex;
+    background-image: url('../images/Rectangle 2.png');
+    background-repeat: no-repeat;
+}
+
+.surprise{
+    margin-left: 30px;
+    margin-bottom: 84.04px;
+}
+
+.fifty{
+    margin-top: 30px;
+    margin-bottom: 279.38px ;
+    margin-right: 20px;
+}
+
+
+
+
+/* portfolio styles */
+
+.portfolio{
+ 
+}
+
+.portfolio-content{
+    text-align: left;
+}
+
+.portfolio-content h6{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-content h4{
+    color: #070211;
+    font-size: 48px;
+}
+
+.portfolio-content p{
+        color: #070211;
+    opacity: 0.6;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.portfolio-images{
+    display:flexbox;
+ 
+}
+
+
+/* Subscribe Newsletter styles */
+
+.subscribe{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.subscribe h4{
+     color: #070211;
+    font-size: 48px;
+}
+
+.subscribe p{
+      color: #070211;
+    opacity: 0.6;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.email-form{
+    display: flex;
+    justify-content: center;
+    padding-left: 336px;
+    padding-right: 336px;
+    padding-bottom: 80px;
+}
+
+.email-box{
+    border-radius: 50px;
+    background-color: white;
+}
+
+.subscribe-btn{
+    font-size: 20px;
+font-weight: 700;
+padding: 16px 32px;
+border-radius: 50px;
+background-color: #ff0000;
+color: white;
+border: none;
+}
+
+
+/* footer styles */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.social{
+    align-items: center;
+}
+
+
