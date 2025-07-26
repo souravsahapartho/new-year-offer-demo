@@ -22,7 +22,9 @@ body{
 
 
 header{
-        background-image: url('../images/Banner Image.png');
+        /* background-image: url('../images/Banner Image.png'); */
+        background-image: url('images/Banner Image.png');
+
         /* margin: 50px 144px; */
         width: 1320px;
         height: 600px;
@@ -89,7 +91,7 @@ text-align: center;
 /* midnight party styles */
 
 .midnight-party{
-    background-image: url('../images/Vectorrr.png');
+    background-image: url('images/Vectorrr.png');
     display: flex;
     color: #ffffff;
     justify-content: space-around;
