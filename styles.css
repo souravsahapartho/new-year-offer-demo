@@ -1,10 +1,9 @@
-.Merriweather{
-      font-family: Merriweather; 
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
+
 
 .primary-btn{
 font-size: 20px;
@@ -14,31 +13,31 @@ border-radius: 8px;
 background-color: #ff0000;
 color: white;
 border: none;
+ font-family: "Inter", sans-serif;
 }
 
 body{
-    /* margin: 50px 144px; */
+    /* margin-left: 140px;
+    margin-right: 140px; */
 }
 
 
 header{
-        /* background-image: url('../images/Banner Image.png'); */
-        background-image: url('images/Banner Image.png');
-
-        /* margin: 50px 144px; */
-        width: 1320px;
-        height: 600px;
+       
+        
 }
 
 .banner-content{
 text-align: center;
-margin: 177px 344px;
+/* margin: 177px 344px; */
+ background-image: url('images/Banner Image.png');
+        width: 1320px;
+        height: 600px;
 
 
 }
 
 .banner-content p{
-   
     margin: 177px 344px;
     font-size: 32px;
     color: white; 
@@ -54,36 +53,40 @@ margin: 177px 344px;
 
 /* 65% off styles */
 
-.offer{
-text-align: center;
+.offer-box{
+    width: 802.9px;
+    height: 749px;
+ font-family: "Inter", sans-serif;
+    text-align: center;
+    margin: 177px 309px 120px 309px;
 
 }
+
 
 .off{
     font-size: 88px;
     color: red;
     font-weight: 700;
-    margin: 24px 300px;
+    margin-bottom: 44.61px; 
 }
 
-.all{
-    text-align: center;
-    margin: 24px 399px;
-}
 
 .all img{
-   
+   width: 802.9px;
+   height: 464.64px;
 }
 
 .all p{
     color: red;
     font-size: 24px;
     font-weight: 500;
+
 }
 
 .all h3{
     font-size: 48px;
-    font-weight: 700;
+    font-weight: bold;
+        margin-bottom: 44.61px;
 }
 
 
@@ -92,27 +95,36 @@ text-align: center;
 
 .midnight-party{
     background-image: url('images/Vectorrr.png');
+    width: 100%;
+    height: 600px;
     display: flex;
     color: #ffffff;
     justify-content: space-around;
-    border-radius: 10px;
+    border-radius: 16px;
+    margin-bottom: 120px;
     
 }
 
 .midnight{
     text-align: left;
-    /* margin: 126px 552px 298px 126px; */
 }
 
 .midnight h6{
-font-size: 48px;
+font-size: 64px;
+width: 642px;
+height: 176px;
+ font-family: "Merriweather", serif;
+ margin: 126px auto 24px 126px;
 
 }
 
 .midnight p{
     opacity: 0.6;
-    font-size: 20px;
-    font-weight: lighter;
+    font-size: 18px;
+    width: 697px;
+    height: 60px;
+    margin: 0px auto 48px 126px;
+     font-family: "Inter", sans-serif;
 }
 
 .join-btn{
@@ -120,19 +132,32 @@ font-size: 48px;
     color: white;
     font-size: 20px;
     font-weight: 700;
+    border: none;
+    margin: 0px auto auto 158px;
+}
+
+.img-twenty img{
+width: 319.83px;
+height: 464.66px;
+margin: 68.11px 138px auto auto;
 }
 
 
 
 /* Details styles */
-.details{
+
+.details-box{
+    width: 1320px;
+    height: 482px;
     text-align: center;
-    margin: 24px 140px;
-    /* padding: 100px 385px 110px 385px; */
+       font-family: "Inter", sans-serif;
+    padding: 100px 385px 110px 385px;
+margin-bottom: 120px;
     
 }
 
 .details-content{
+ 
 font-size: 32px;
 font-weight: 600;
 
@@ -142,46 +167,74 @@ font-weight: 600;
     color: red;
 }
 
+.join-now-btn{
+margin-top: 48px;
+}
+
 
 
 /* Coming Soon 2024 styles */
 .coming-soon{
     display: flex;
     gap: 50px;
+    width: 1320px;
+    height: 463px;
     justify-content:space-between;
 }
 
 .best-offer{
     text-align: left;
+    margin: 104px auto auto 0px;
+    width: 393px;
+    height: 255px;
 }
 
 .best-offer h6{
     color: #ff0000;
     font-size: 24px;
     font-weight: 500;
+      font-family: "Inter", sans-serif;
 }
 
 .best-offer h3{
     font-size: 48px;
+     font-family: "Merriweather", serif;
 }
 
 .best-offer p{
          color: #070211;
-    opacity: 0.6;
+         opacity: 0.6;
     font-size: 20px;
-    font-weight: lighter;
+    font-family: "Inter", sans-serif;
 }
 
 
 .circle{
+    width: 463px;
+    height: 463px;
+    margin: 50px 118px 0px 70px;
 }
 
-.twenty-four{
-    text-align: left;
+.circle img{
+    width: 364.84px;
+    height: 364.84px;
+    padding: 49.08px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #ff0000;
+   border-width: 15px;
 }
 
-.twenty-four h3{
+.twenty{
+     font-family: "Inter", sans-serif;
+    width: 276px;
+    height: 170px; 
+}
+
+.twenty h6{
     color: #ff0000;
+    font-size: 48px;
+      margin: 112px 0px 16px auto;
 
 }
 
@@ -189,7 +242,12 @@ font-weight: 600;
         color: #070211;
     opacity: 0.6;
     font-size: 20px;
-    font-weight: lighter;
+}
+
+.twenty-four img{
+    width: 140px;
+    height: 140px;
+    margin: auto 136px 2px auto;
 }
 
 
@@ -197,51 +255,65 @@ font-weight: 600;
 /* Holidays styles */
 
 .holidays{
-    margin: 32px 126px;
+    margin-top: 120px;
     text-align: center;
+
 }
 
 .holidays h6{
 font-size: 24px;
 font-weight: 400;
 color: #070211;
+ font-family: "Inter", sans-serif;
+ margin-bottom: 16px;
 }
 
 .holidays h2{
  font-size: 72px;
+ font-family: "Merriweather", serif;
+ margin-bottom: 28px;
 }
 
 .holidays h2 span{
     color: #ff0000;
-   
 }
 
 .holidays p{
          color: #070211;
     opacity: 0.6;
     font-size: 20px;
-    font-weight: lighter;
+     font-family: "Inter", sans-serif;
+     margin-bottom: 64px;
 }
+
 
 
 
 /* 50% Discount style */
 
 .discount-image{
+    width: 1320px;
+    height: 662.07px;
     display: flex;
     background-image: url('../images/Rectangle 2.png');
+    background-position: bottom;
     background-repeat: no-repeat;
+    margin-bottom: 120px;
 }
 
 .surprise{
     margin-left: 30px;
     margin-bottom: 84.04px;
+    width: 796.46px;
+    height: 662.07px;
 }
 
 .fifty{
     margin-top: 30px;
     margin-bottom: 279.38px ;
     margin-right: 20px;
+    width: 305.69px;
+    height: 305.69px;
 }
 
 
@@ -250,7 +322,14 @@ color: #070211;
 /* portfolio styles */
 
 .portfolio{
- 
+ width: 1320px;
+ height: 1163px;
+}
+
+.port-image{
+    width: 424px;
+    height: 450px;
+    gap: 24px;
 }
 
 .portfolio-content{
@@ -258,25 +337,32 @@ color: #070211;
 }
 
 .portfolio-content h6{
+    width: 192px;
+    height: 29px;
     font-size: 24px;
     font-weight: 500;
+     font-family: "Inter", sans-serif;
+     color: #ff0000;
+     margin-bottom: 16px;
 }
 
 .portfolio-content h4{
     color: #070211;
     font-size: 48px;
+     font-family: "Merriweather", serif;
+     margin-bottom: 22px;
+     width: 566px;
+     height: 60px;
 }
 
 .portfolio-content p{
+    width: 896px;
+    height: 64px;
         color: #070211;
     opacity: 0.6;
     font-size: 20px;
-    font-weight: lighter;
-}
-
-.portfolio-images{
-    display:flexbox;
- 
+    font-family: "Inter", sans-serif;
+    margin-bottom: 48px;
 }
 
 
@@ -335,5 +421,3 @@ footer{
 .social{
     align-items: center;
 }
-
-
