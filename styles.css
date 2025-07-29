@@ -366,58 +366,132 @@ color: #070211;
 }
 
 
+
 /* Subscribe Newsletter styles */
 
 .subscribe{
-    margin-top: 30px;
+    margin-top: 120px;
+}
+
+.subscribe-box{
+    width: 896px;
+    height: 336px;
     text-align: center;
+    margin: 80px 212px auto 212px;
+}
+
+.subscribe-box img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
 }
 
 .subscribe h4{
      color: #070211;
     font-size: 48px;
+     font-family: "Merriweather", serif;
+     margin-bottom: 22px;
 }
 
 .subscribe p{
       color: #070211;
     opacity: 0.6;
     font-size: 20px;
-    font-weight: lighter;
+    font-family: "Inter", sans-serif;
+    width: 896px;
+    height: 64px;
+    
 }
 
-.email-form{
+/* .email-form{
     display: flex;
     justify-content: center;
     padding-left: 336px;
     padding-right: 336px;
     padding-bottom: 80px;
-}
-
+} */
+/* 
 .email-box{
     border-radius: 50px;
     background-color: white;
+} */
+
+.email-form input{
+    width: 648px;
+    height: 72px;
+    margin: 50px 336px 80px 336px;
+    border-radius: 50px;
+
+}
+
+.form::placeholder{
+    display: none;
+    margin: 25px auto 30px 30px;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
 }
 
 .subscribe-btn{
+     font-family: "Inter", sans-serif;
     font-size: 20px;
-font-weight: 700;
-padding: 16px 32px;
+font-weight: 500;
+/* padding: 16px 32px; */
 border-radius: 50px;
 background-color: #ff0000;
 color: white;
 border: none;
+
 }
+
 
 
 /* footer styles */
 
 footer{
+    font-family: "Inter", sans-serif;
+    width: auto;
+    height: 609px;
     display: flex;
     justify-content: space-between;
     background-color: black;
-    color: white;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight:500;
+}
+
+.big-building{
+margin: 120px auto 0px 140px;
+width: 375px;
+height: 80px;
+}
+
+.copyright{
+    margin: 260px auto 120px 140px;
+width: 295px;
+height: 29px;
+}
+
+.contact{
+margin: 120px 140px 0px auto;
+width: 251px;
+height: 80px;
+}
+
+.unsubscribe{
+    width: 145px;
+    height: 29px;
+    margin: 260px 140px 120px auto;
+
 }
 
 .social{
     align-items: center;
+    width: 328px;
+    height: 64px;
+    margin: 298px auto 247px auto;
+}
+
+.social img{
+    width: 64px;
+    height: 64px;
 }
