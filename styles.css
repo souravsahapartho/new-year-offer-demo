@@ -17,8 +17,8 @@ border: none;
 }
 
 body{
-    /* margin-left: 140px;
-    margin-right: 140px; */
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 
@@ -29,18 +29,19 @@ header{
 
 .banner-content{
 text-align: center;
-/* margin: 177px 344px; */
+/* : 177px 344px; */
  background-image: url('images/Banner Image.png');
-        width: 1320px;
+        width: 1280px;
         height: 600px;
-
-
+             font-family: "Merriweather", serif;
 }
 
 .banner-content p{
-    margin: 177px 344px;
+    margin: 80px 344px 16px 344px;
     font-size: 32px;
     color: white; 
+     width: 259px;
+     height: 40px;
     
 }
 
@@ -49,6 +50,7 @@ text-align: center;
     font-weight: 700;
     color: white;
 }
+
 
 
 /* 65% off styles */
@@ -95,6 +97,7 @@ text-align: center;
 
 .midnight-party{
     background-image: url('images/Vectorrr.png');
+    background-repeat: none;
     width: 100%;
     height: 600px;
     display: flex;
@@ -147,13 +150,13 @@ margin: 68.11px 138px auto auto;
 /* Details styles */
 
 .details-box{
-    width: 1320px;
+    width: 1280px;
     height: 482px;
     text-align: center;
        font-family: "Inter", sans-serif;
     padding: 100px 385px 110px 385px;
-margin-bottom: 120px;
-    
+margin-bottom: 100px;
+    background: linear-gradient(45deg, #f8a7a7, #ffffff);
 }
 
 .details-content{
@@ -176,8 +179,8 @@ margin-top: 48px;
 /* Coming Soon 2024 styles */
 .coming-soon{
     display: flex;
-    gap: 50px;
-    width: 1320px;
+    gap: 30px;
+    width: 100%;
     height: 463px;
     justify-content:space-between;
 }
@@ -187,6 +190,7 @@ margin-top: 48px;
     margin: 104px auto auto 0px;
     width: 393px;
     height: 255px;
+    margin-left: 10px;
 }
 
 .best-offer h6{
@@ -284,6 +288,9 @@ color: #070211;
     font-size: 20px;
      font-family: "Inter", sans-serif;
      margin-bottom: 64px;
+     /* width: 1068px;
+     height: 96px;
+     margin: auto 266px 64px 266px; */
 }
 
 
@@ -292,7 +299,7 @@ color: #070211;
 /* 50% Discount style */
 
 .discount-image{
-    width: 1320px;
+    width: 1280px;
     height: 662.07px;
     display: flex;
     background-image: url('images/Rectangle 2.png');
@@ -322,7 +329,7 @@ color: #070211;
 /* portfolio styles */
 
 .portfolio{
- width: 1320px;
+ width: 1280px;
  height: 1163px;
 }
 
@@ -371,6 +378,8 @@ color: #070211;
 
 .subscribe{
     margin-top: 120px;
+    background-color: #ff00000d;
+    max-width: 1280px;
 }
 
 .subscribe-box{
@@ -381,6 +390,7 @@ color: #070211;
 }
 
 .subscribe-box img{
+    margin-top: 50.07px;
     width: 150px;
     height: 150px;
     margin-bottom: 40px;
@@ -399,47 +409,46 @@ color: #070211;
     font-size: 20px;
     font-family: "Inter", sans-serif;
     width: 896px;
-    height: 64px;
-    
+    height: 64px;    
 }
 
-/* .email-form{
+.email-form{
     display: flex;
-    justify-content: center;
-    padding-left: 336px;
-    padding-right: 336px;
-    padding-bottom: 80px;
-} */
-/* 
-.email-box{
-    border-radius: 50px;
-    background-color: white;
-} */
+    justify-content: space-between;
+    margin-top: 20px;
+}
 
 .email-form input{
-    width: 648px;
+    width: 438px;
     height: 72px;
-    margin: 50px 336px 80px 336px;
+    /* margin: 50px 336px 80px 336px; */
+    margin: 48px 0px 80px 336px;
     border-radius: 50px;
 
-}
+    padding: 20px;
+    border-bottom-right-radius: 0px;
+border-bottom-left-radius:50px;
+border-top-left-radius: 50px;
+border-top-right-radius: 0px;
+border: none;
 
-.form::placeholder{
-    display: none;
-    margin: 25px auto 30px 30px;
-    font-size: 18px;
-    font-family: "Inter", sans-serif;
 }
 
 .subscribe-btn{
+    width: 210px;
+height: 72px;
+margin: 48px 336px 79.93px 0px;
      font-family: "Inter", sans-serif;
     font-size: 20px;
 font-weight: 500;
-/* padding: 16px 32px; */
 border-radius: 50px;
 background-color: #ff0000;
 color: white;
 border: none;
+border-bottom-right-radius: 50px;
+border-bottom-left-radius: 0px;
+border-top-left-radius: 0px;
+border-top-right-radius: 50px;
 
 }
 
